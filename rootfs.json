@@ -4,22 +4,22 @@
     "author": "linuxcontainers",
     "distro": "ALT Linux",
     "description": "Official LXC container image for ALT Linux Sisyphus",
-    "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/alt/Sisyphus/amd64/default/20260905_01%3A17/rootfs.tar.xz",
-    "sha256": "5e41ddf501ce74606e1f4315b939f88794713af0d6ebb16322988a6dbe449155",
-    "size_bytes": 230847592,
-    "build_date": "20260905"
+    "architecture": "aarch64",
+    "download_url": "https://images.linuxcontainers.org/images/alt/Sisyphus/arm64/default/20260906_05%3A05/rootfs.tar.xz",
+    "sha256": "84222d0c9c11f0e30d5f4764878532403ec370ead5303c916f800966f2f0054e",
+    "size_bytes": 174051600,
+    "build_date": "20260906"
   },
   {
     "name": "ALT Linux Sisyphus",
     "author": "linuxcontainers",
     "distro": "ALT Linux",
     "description": "Official LXC container image for ALT Linux Sisyphus",
-    "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/alt/Sisyphus/arm64/default/20260905_01%3A17/rootfs.tar.xz",
-    "sha256": "fc05d0054bbab406b1cb82d92ac7ad95ef88360d8dbe78713163023787febd6e",
-    "size_bytes": 174031060,
-    "build_date": "20260905"
+    "architecture": "x86_64",
+    "download_url": "https://images.linuxcontainers.org/images/alt/Sisyphus/amd64/default/20260906_05%3A04/rootfs.tar.xz",
+    "sha256": "92a6358bafdf7a691974c48bcfe3e2664f28424c25fba41d04fc388e3d9607ae",
+    "size_bytes": 230853172,
+    "build_date": "20260906"
   },
   {
     "name": "ALT Linux p11",
@@ -27,10 +27,10 @@
     "distro": "ALT Linux",
     "description": "Official LXC container image for ALT Linux p11",
     "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/alt/p11/arm64/default/20260905_01%3A17/rootfs.tar.xz",
-    "sha256": "c1c807658e6aa8a6af3fe5411707138abf2e574e33f433a3f5b4c481bd5f410e",
-    "size_bytes": 171804232,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/alt/p11/arm64/default/20260906_05%3A05/rootfs.tar.xz",
+    "sha256": "5af6c3ea0e0c85998f1bc6a2db4b687a19673210f8f32984dac7a0a3ef86b9aa",
+    "size_bytes": 171792852,
+    "build_date": "20260906"
   },
   {
     "name": "ALT Linux p11",
@@ -38,9 +38,20 @@
     "distro": "ALT Linux",
     "description": "Official LXC container image for ALT Linux p11",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/alt/p11/amd64/default/20260905_01%3A17/rootfs.tar.xz",
-    "sha256": "32f67d32c444e9e3187e0c6486cace30114f24dfcd86ddfe924e69b695b6c8a1",
-    "size_bytes": 231261228,
+    "download_url": "https://images.linuxcontainers.org/images/alt/p11/amd64/default/20260906_05%3A04/rootfs.tar.xz",
+    "sha256": "fd36de579e2641c2787e8d9e9c1d2e29c3611fec6d193d029bafdcdcaf3066d9",
+    "size_bytes": 231126352,
+    "build_date": "20260906"
+  },
+  {
+    "name": "AlmaLinux 10",
+    "author": "linuxcontainers",
+    "distro": "AlmaLinux",
+    "description": "Official LXC container image for AlmaLinux 10",
+    "architecture": "x86_64",
+    "download_url": "https://images.linuxcontainers.org/images/almalinux/10/amd64/default/20260905_23%3A08/rootfs.tar.xz",
+    "sha256": "e83ce4dc5eefc0d696e23df6d7fc0956980f2a34a3498be5e2751db87621f1da",
+    "size_bytes": 84601496,
     "build_date": "20260905"
   },
   {
@@ -48,22 +59,11 @@
     "author": "linuxcontainers",
     "distro": "AlmaLinux",
     "description": "Official LXC container image for AlmaLinux 10",
-    "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/almalinux/10/amd64/default/20260904_23%3A08/rootfs.tar.xz",
-    "sha256": "ec40b2c0bb26c105c7b3a36878fca88b852e0082a17e2eac4f07f3f76f4e4f4b",
-    "size_bytes": 84615948,
-    "build_date": "20260904"
-  },
-  {
-    "name": "AlmaLinux 10",
-    "author": "linuxcontainers",
-    "distro": "AlmaLinux",
-    "description": "Official LXC container image for AlmaLinux 10",
     "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/almalinux/10/arm64/default/20260904_23%3A08/rootfs.tar.xz",
-    "sha256": "23b61c38480cda3d1cb6b96c44557009c5c898967013f38eab8cf7c2ddd55ddf",
-    "size_bytes": 80154088,
-    "build_date": "20260904"
+    "download_url": "https://images.linuxcontainers.org/images/almalinux/10/arm64/default/20260905_23%3A08/rootfs.tar.xz",
+    "sha256": "32ca489910e967ebc4c298e26aa1cc8f82b7743e82538e4baa04dc8d48ac9152",
+    "size_bytes": 80141180,
+    "build_date": "20260905"
   },
   {
     "name": "AlmaLinux 8",
@@ -71,10 +71,10 @@
     "distro": "AlmaLinux",
     "description": "Official LXC container image for AlmaLinux 8",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/almalinux/8/amd64/default/20260904_23%3A08/rootfs.tar.xz",
-    "sha256": "f662e785cf703e5f8f37ea05563bc21768ba35849565f67d94ff8bfe1ebd88b0",
-    "size_bytes": 115443476,
-    "build_date": "20260904"
+    "download_url": "https://images.linuxcontainers.org/images/almalinux/8/amd64/default/20260905_23%3A08/rootfs.tar.xz",
+    "sha256": "3db001e5877fbc9a79bbfaa7170b004016f246abb57f02f729ad95858ea634e6",
+    "size_bytes": 115509656,
+    "build_date": "20260905"
   },
   {
     "name": "AlmaLinux 8",
@@ -82,10 +82,10 @@
     "distro": "AlmaLinux",
     "description": "Official LXC container image for AlmaLinux 8",
     "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/almalinux/8/arm64/default/20260904_23%3A08/rootfs.tar.xz",
-    "sha256": "c11a169af911522ca64925d3f8d2909b3fe5a8a61c091678cda1fd6e7f9e1c15",
-    "size_bytes": 111624772,
-    "build_date": "20260904"
+    "download_url": "https://images.linuxcontainers.org/images/almalinux/8/arm64/default/20260905_23%3A08/rootfs.tar.xz",
+    "sha256": "5bc6d858a35b987d12e5db8bd09ba85e35adcd650b8b889cd6dea2bc3e4c91cc",
+    "size_bytes": 111625388,
+    "build_date": "20260905"
   },
   {
     "name": "AlmaLinux 9",
@@ -93,10 +93,10 @@
     "distro": "AlmaLinux",
     "description": "Official LXC container image for AlmaLinux 9",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/almalinux/9/amd64/default/20260904_23%3A08/rootfs.tar.xz",
-    "sha256": "07d753a4b339c07e1175a8ebb103599bd53822224ca20c75a9f98a472defeb9d",
-    "size_bytes": 107509076,
-    "build_date": "20260904"
+    "download_url": "https://images.linuxcontainers.org/images/almalinux/9/amd64/default/20260905_23%3A08/rootfs.tar.xz",
+    "sha256": "baf7ddfe65501b0bff7fe332229891a99c48500b9ffa1de54aa5619040c93b1e",
+    "size_bytes": 107507512,
+    "build_date": "20260905"
   },
   {
     "name": "AlmaLinux 9",
@@ -104,20 +104,9 @@
     "distro": "AlmaLinux",
     "description": "Official LXC container image for AlmaLinux 9",
     "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/almalinux/9/arm64/default/20260904_23%3A08/rootfs.tar.xz",
-    "sha256": "fa0259bba93967a9269f39809aa1f1ad14249669ab95ab001c6a96ef66788016",
-    "size_bytes": 103715992,
-    "build_date": "20260904"
-  },
-  {
-    "name": "Alpine Linux 3.21",
-    "author": "linuxcontainers",
-    "distro": "Alpine Linux",
-    "description": "Official LXC container image for Alpine Linux 3.21",
-    "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/alpine/3.21/arm64/default/20260905_13%3A00/rootfs.tar.xz",
-    "sha256": "fef4f4610e8b07c701b4e763ddcc89f08a7f3600e5b5b424522bc793e8e99e97",
-    "size_bytes": 3499236,
+    "download_url": "https://images.linuxcontainers.org/images/almalinux/9/arm64/default/20260905_23%3A08/rootfs.tar.xz",
+    "sha256": "a33926062dd8b30e05f7f285e027f5b6cc5deae81753e1c009052a66425b5cb0",
+    "size_bytes": 103707652,
     "build_date": "20260905"
   },
   {
@@ -143,14 +132,25 @@
     "build_date": "20260905"
   },
   {
+    "name": "Alpine Linux 3.21",
+    "author": "linuxcontainers",
+    "distro": "Alpine Linux",
+    "description": "Official LXC container image for Alpine Linux 3.21",
+    "architecture": "aarch64",
+    "download_url": "https://images.linuxcontainers.org/images/alpine/3.21/arm64/default/20260905_13%3A00/rootfs.tar.xz",
+    "sha256": "fef4f4610e8b07c701b4e763ddcc89f08a7f3600e5b5b424522bc793e8e99e97",
+    "size_bytes": 3499236,
+    "build_date": "20260905"
+  },
+  {
     "name": "Alpine Linux 3.21 (tinycloud)",
     "author": "linuxcontainers",
     "distro": "Alpine Linux",
     "description": "Official LXC container image for Alpine Linux 3.21 (tinycloud)",
-    "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/alpine/3.21/arm64/tinycloud/20260905_13%3A00/rootfs.tar.xz",
-    "sha256": "663a6cd488f539d049f07f11eb5454c45ee2c46143daa577a8b4682fb5f56b90",
-    "size_bytes": 4822880,
+    "architecture": "x86_64",
+    "download_url": "https://images.linuxcontainers.org/images/alpine/3.21/amd64/tinycloud/20260905_13%3A00/rootfs.tar.xz",
+    "sha256": "72dfd74899149f0caa6344cc9611f1b5c3e34f2cad912febad9e43ec4eae8c09",
+    "size_bytes": 4726068,
     "build_date": "20260905"
   },
   {
@@ -169,21 +169,10 @@
     "author": "linuxcontainers",
     "distro": "Alpine Linux",
     "description": "Official LXC container image for Alpine Linux 3.21 (tinycloud)",
-    "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/alpine/3.21/amd64/tinycloud/20260905_13%3A00/rootfs.tar.xz",
-    "sha256": "72dfd74899149f0caa6344cc9611f1b5c3e34f2cad912febad9e43ec4eae8c09",
-    "size_bytes": 4726068,
-    "build_date": "20260905"
-  },
-  {
-    "name": "Alpine Linux 3.22",
-    "author": "linuxcontainers",
-    "distro": "Alpine Linux",
-    "description": "Official LXC container image for Alpine Linux 3.22",
     "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/alpine/3.22/arm64/default/20260905_13%3A02/rootfs.tar.xz",
-    "sha256": "47b3488fc632806a5b8c9075ddd136040757708aee102ff7c3958fdb85ebcce4",
-    "size_bytes": 3583924,
+    "download_url": "https://images.linuxcontainers.org/images/alpine/3.21/arm64/tinycloud/20260905_13%3A00/rootfs.tar.xz",
+    "sha256": "663a6cd488f539d049f07f11eb5454c45ee2c46143daa577a8b4682fb5f56b90",
+    "size_bytes": 4822880,
     "build_date": "20260905"
   },
   {
@@ -195,6 +184,17 @@
     "download_url": "https://images.linuxcontainers.org/images/alpine/3.22/amd64/default/20260905_13%3A00/rootfs.tar.xz",
     "sha256": "8c8a9139947405c6f18f2cf279dde42451756e27bffd98eab2d076ffc1836fe6",
     "size_bytes": 3396448,
+    "build_date": "20260905"
+  },
+  {
+    "name": "Alpine Linux 3.22",
+    "author": "linuxcontainers",
+    "distro": "Alpine Linux",
+    "description": "Official LXC container image for Alpine Linux 3.22",
+    "architecture": "aarch64",
+    "download_url": "https://images.linuxcontainers.org/images/alpine/3.22/arm64/default/20260905_13%3A02/rootfs.tar.xz",
+    "sha256": "47b3488fc632806a5b8c9075ddd136040757708aee102ff7c3958fdb85ebcce4",
+    "size_bytes": 3583924,
     "build_date": "20260905"
   },
   {
@@ -224,17 +224,6 @@
     "author": "linuxcontainers",
     "distro": "Alpine Linux",
     "description": "Official LXC container image for Alpine Linux 3.22 (tinycloud)",
-    "architecture": "armhf",
-    "download_url": "https://images.linuxcontainers.org/images/alpine/3.22/armhf/tinycloud/20260905_13%3A02/rootfs.tar.xz",
-    "sha256": "01588e1dea17dbd639fd797cf3e109a4dcf0bc33f76c5e10706c0cde8e525daa",
-    "size_bytes": 4339036,
-    "build_date": "20260905"
-  },
-  {
-    "name": "Alpine Linux 3.22 (tinycloud)",
-    "author": "linuxcontainers",
-    "distro": "Alpine Linux",
-    "description": "Official LXC container image for Alpine Linux 3.22 (tinycloud)",
     "architecture": "x86_64",
     "download_url": "https://images.linuxcontainers.org/images/alpine/3.22/amd64/tinycloud/20260905_13%3A00/rootfs.tar.xz",
     "sha256": "7660acad37d20c1add4901aa7aa3e399f47ff84ebdd91f35866b06e90d178c8b",
@@ -242,14 +231,25 @@
     "build_date": "20260905"
   },
   {
+    "name": "Alpine Linux 3.22 (tinycloud)",
+    "author": "linuxcontainers",
+    "distro": "Alpine Linux",
+    "description": "Official LXC container image for Alpine Linux 3.22 (tinycloud)",
+    "architecture": "armhf",
+    "download_url": "https://images.linuxcontainers.org/images/alpine/3.22/armhf/tinycloud/20260905_13%3A02/rootfs.tar.xz",
+    "sha256": "01588e1dea17dbd639fd797cf3e109a4dcf0bc33f76c5e10706c0cde8e525daa",
+    "size_bytes": 4339036,
+    "build_date": "20260905"
+  },
+  {
     "name": "Alpine Linux 3.23",
     "author": "linuxcontainers",
     "distro": "Alpine Linux",
     "description": "Official LXC container image for Alpine Linux 3.23",
-    "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/alpine/3.23/amd64/default/20260905_13%3A00/rootfs.tar.xz",
-    "sha256": "b2e40e7141c88713d20fba8f943ea71d11b7c8d87d381c3a98672f9c750771ce",
-    "size_bytes": 3443084,
+    "architecture": "armhf",
+    "download_url": "https://images.linuxcontainers.org/images/alpine/3.23/armhf/default/20260905_13%3A03/rootfs.tar.xz",
+    "sha256": "626fc4ea7552d07ae6e2f94934b15e51257f75fc9344496f9e61a56748ddf012",
+    "size_bytes": 3037920,
     "build_date": "20260905"
   },
   {
@@ -268,21 +268,10 @@
     "author": "linuxcontainers",
     "distro": "Alpine Linux",
     "description": "Official LXC container image for Alpine Linux 3.23",
-    "architecture": "armhf",
-    "download_url": "https://images.linuxcontainers.org/images/alpine/3.23/armhf/default/20260905_13%3A03/rootfs.tar.xz",
-    "sha256": "626fc4ea7552d07ae6e2f94934b15e51257f75fc9344496f9e61a56748ddf012",
-    "size_bytes": 3037920,
-    "build_date": "20260905"
-  },
-  {
-    "name": "Alpine Linux 3.23 (tinycloud)",
-    "author": "linuxcontainers",
-    "distro": "Alpine Linux",
-    "description": "Official LXC container image for Alpine Linux 3.23 (tinycloud)",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/alpine/3.23/amd64/tinycloud/20260905_13%3A00/rootfs.tar.xz",
-    "sha256": "1a4570ae43cfc3b43673debc6bf9c4ec05f4972712849430f327ffd870cca767",
-    "size_bytes": 4955288,
+    "download_url": "https://images.linuxcontainers.org/images/alpine/3.23/amd64/default/20260905_13%3A00/rootfs.tar.xz",
+    "sha256": "b2e40e7141c88713d20fba8f943ea71d11b7c8d87d381c3a98672f9c750771ce",
+    "size_bytes": 3443084,
     "build_date": "20260905"
   },
   {
@@ -305,6 +294,17 @@
     "download_url": "https://images.linuxcontainers.org/images/alpine/3.23/armhf/tinycloud/20260905_13%3A05/rootfs.tar.xz",
     "sha256": "90442c25bfb593a3fc2bf22cd717fe36664dad3fc51df6b9f1e15ff8cebe48bc",
     "size_bytes": 4387460,
+    "build_date": "20260905"
+  },
+  {
+    "name": "Alpine Linux 3.23 (tinycloud)",
+    "author": "linuxcontainers",
+    "distro": "Alpine Linux",
+    "description": "Official LXC container image for Alpine Linux 3.23 (tinycloud)",
+    "architecture": "x86_64",
+    "download_url": "https://images.linuxcontainers.org/images/alpine/3.23/amd64/tinycloud/20260905_13%3A00/rootfs.tar.xz",
+    "sha256": "1a4570ae43cfc3b43673debc6bf9c4ec05f4972712849430f327ffd870cca767",
+    "size_bytes": 4955288,
     "build_date": "20260905"
   },
   {
@@ -356,17 +356,6 @@
     "author": "linuxcontainers",
     "distro": "Alpine Linux",
     "description": "Official LXC container image for Alpine Linux 3.24 (tinycloud)",
-    "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/alpine/3.24/amd64/tinycloud/20260905_13%3A00/rootfs.tar.xz",
-    "sha256": "01047b061dfdb38c3aa3bb535c7d61289aedc752f76c5424b86793cf8fd54bc1",
-    "size_bytes": 4928792,
-    "build_date": "20260905"
-  },
-  {
-    "name": "Alpine Linux 3.24 (tinycloud)",
-    "author": "linuxcontainers",
-    "distro": "Alpine Linux",
-    "description": "Official LXC container image for Alpine Linux 3.24 (tinycloud)",
     "architecture": "armhf",
     "download_url": "https://images.linuxcontainers.org/images/alpine/3.24/armhf/tinycloud/20260905_13%3A04/rootfs.tar.xz",
     "sha256": "d8b4e4f76c74ec4076c4e626fcdefeef5b3e7aeb3c7e5d629d879a99a790185a",
@@ -374,14 +363,14 @@
     "build_date": "20260905"
   },
   {
-    "name": "Alpine Linux edge",
+    "name": "Alpine Linux 3.24 (tinycloud)",
     "author": "linuxcontainers",
     "distro": "Alpine Linux",
-    "description": "Official LXC container image for Alpine Linux edge",
-    "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/alpine/edge/arm64/default/20260905_13%3A00/rootfs.tar.xz",
-    "sha256": "5633b4a46cb94b32ca713f0cf8662c96b71b185bddcb81ca2978aefdfa8e5ef3",
-    "size_bytes": 3645936,
+    "description": "Official LXC container image for Alpine Linux 3.24 (tinycloud)",
+    "architecture": "x86_64",
+    "download_url": "https://images.linuxcontainers.org/images/alpine/3.24/amd64/tinycloud/20260905_13%3A00/rootfs.tar.xz",
+    "sha256": "01047b061dfdb38c3aa3bb535c7d61289aedc752f76c5424b86793cf8fd54bc1",
+    "size_bytes": 4928792,
     "build_date": "20260905"
   },
   {
@@ -407,6 +396,17 @@
     "build_date": "20260905"
   },
   {
+    "name": "Alpine Linux edge",
+    "author": "linuxcontainers",
+    "distro": "Alpine Linux",
+    "description": "Official LXC container image for Alpine Linux edge",
+    "architecture": "aarch64",
+    "download_url": "https://images.linuxcontainers.org/images/alpine/edge/arm64/default/20260905_13%3A00/rootfs.tar.xz",
+    "sha256": "5633b4a46cb94b32ca713f0cf8662c96b71b185bddcb81ca2978aefdfa8e5ef3",
+    "size_bytes": 3645936,
+    "build_date": "20260905"
+  },
+  {
     "name": "Alpine Linux edge (tinycloud)",
     "author": "linuxcontainers",
     "distro": "Alpine Linux",
@@ -422,10 +422,10 @@
     "author": "linuxcontainers",
     "distro": "Alpine Linux",
     "description": "Official LXC container image for Alpine Linux edge (tinycloud)",
-    "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/alpine/edge/arm64/tinycloud/20260905_13%3A01/rootfs.tar.xz",
-    "sha256": "2e289e05a6a25d4ea340255fbd1d2a23939fb9562c7dca4e2df4afbedc4a87cc",
-    "size_bytes": 5065452,
+    "architecture": "armhf",
+    "download_url": "https://images.linuxcontainers.org/images/alpine/edge/armhf/tinycloud/20260905_13%3A02/rootfs.tar.xz",
+    "sha256": "b2fc5fb004667e204ef5b813c911b2d90161c79c6902aa46124e1f24a3a8551d",
+    "size_bytes": 4426828,
     "build_date": "20260905"
   },
   {
@@ -433,10 +433,10 @@
     "author": "linuxcontainers",
     "distro": "Alpine Linux",
     "description": "Official LXC container image for Alpine Linux edge (tinycloud)",
-    "architecture": "armhf",
-    "download_url": "https://images.linuxcontainers.org/images/alpine/edge/armhf/tinycloud/20260905_13%3A02/rootfs.tar.xz",
-    "sha256": "b2fc5fb004667e204ef5b813c911b2d90161c79c6902aa46124e1f24a3a8551d",
-    "size_bytes": 4426828,
+    "architecture": "aarch64",
+    "download_url": "https://images.linuxcontainers.org/images/alpine/edge/arm64/tinycloud/20260905_13%3A01/rootfs.tar.xz",
+    "sha256": "2e289e05a6a25d4ea340255fbd1d2a23939fb9562c7dca4e2df4afbedc4a87cc",
+    "size_bytes": 5065452,
     "build_date": "20260905"
   },
   {
@@ -445,10 +445,10 @@
     "distro": "Amazon Linux",
     "description": "Official LXC container image for Amazon Linux 2023",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/amazonlinux/2023/amd64/default/20260905_05%3A09/rootfs.tar.xz",
-    "sha256": "175c6ac6365b8df87e09ebb57c0551cde7b86a708167ffc5cba12324e8bff751",
-    "size_bytes": 59827580,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/amazonlinux/2023/amd64/default/20260906_05%3A09/rootfs.tar.xz",
+    "sha256": "d33d369dd6cdf143f7ab876f41ea4ff76d560972c6fdab1b92f8f3389fc36948",
+    "size_bytes": 59847464,
+    "build_date": "20260906"
   },
   {
     "name": "Arch Linux current",
@@ -456,10 +456,10 @@
     "distro": "Arch Linux",
     "description": "Official LXC container image for Arch Linux current",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/archlinux/current/amd64/default/20260905_04%3A18/rootfs.tar.xz",
-    "sha256": "2bf84a61487d5933615dc6a597ec6ca17b405a612ced12d81f280dc50b3efd78",
-    "size_bytes": 185522476,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/archlinux/current/amd64/default/20260906_05%3A35/rootfs.tar.xz",
+    "sha256": "25fccc147529a564db69ac33dc388abe650814f6e75ddd17f14e2b7638223c61",
+    "size_bytes": 185521304,
+    "build_date": "20260906"
   },
   {
     "name": "Arch Linux current",
@@ -467,10 +467,10 @@
     "distro": "Arch Linux",
     "description": "Official LXC container image for Arch Linux current",
     "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/archlinux/current/arm64/default/20260905_04%3A42/rootfs.tar.xz",
-    "sha256": "5de7c61d310cc29637fe4d574f50358f642d95fc722ca1dbc72f619ae084636c",
-    "size_bytes": 180120852,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/archlinux/current/arm64/default/20260906_05%3A15/rootfs.tar.xz",
+    "sha256": "c862e1f7c9122e9586b104dddb5d246e69558b82f5822c26d5893416a0f18dce",
+    "size_bytes": 180131132,
+    "build_date": "20260906"
   },
   {
     "name": "BusyBox 1.38.0",
@@ -478,10 +478,10 @@
     "distro": "BusyBox",
     "description": "Official LXC container image for BusyBox 1.38.0",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/busybox/1.38.0/amd64/default/20260905_06%3A00/rootfs.tar.xz",
-    "sha256": "9aae21a6441e6eec56cbf4d7eb9225aa7355a108380ca3b4e7b5475fa0fed2f1",
-    "size_bytes": 1083716,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/busybox/1.38.0/amd64/default/20260906_06%3A00/rootfs.tar.xz",
+    "sha256": "26f13c73e2111b21a6fab2806ccdb76218df4606dfb8491f717844c1cfcab59d",
+    "size_bytes": 1083244,
+    "build_date": "20260906"
   },
   {
     "name": "BusyBox 1.38.0",
@@ -489,10 +489,10 @@
     "distro": "BusyBox",
     "description": "Official LXC container image for BusyBox 1.38.0",
     "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/busybox/1.38.0/arm64/default/20260905_06%3A00/rootfs.tar.xz",
-    "sha256": "6299b8860b09578794b78fb91341fa0a2ea4a35433b0a672bb35731922500656",
-    "size_bytes": 946048,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/busybox/1.38.0/arm64/default/20260906_06%3A00/rootfs.tar.xz",
+    "sha256": "9502e58c0f4dc3db4163ff5b307a197a35ce6942165d80486b1b4342453f5fd5",
+    "size_bytes": 945712,
+    "build_date": "20260906"
   },
   {
     "name": "CentOS 10-Stream",
@@ -500,10 +500,10 @@
     "distro": "CentOS",
     "description": "Official LXC container image for CentOS 10-Stream",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/centos/10-Stream/amd64/default/20260905_07%3A08/rootfs.tar.xz",
-    "sha256": "ec13eb11ee77a385c59c79bc3deb5dd82c8009f6460ca5bc5287c97530f8224a",
-    "size_bytes": 86936524,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/centos/10-Stream/amd64/default/20260906_07%3A08/rootfs.tar.xz",
+    "sha256": "2acf42136bb358d6c5a792bc73cde3618522da44c37893d6fa3c324c5ba53b51",
+    "size_bytes": 86946516,
+    "build_date": "20260906"
   },
   {
     "name": "CentOS 10-Stream",
@@ -511,21 +511,10 @@
     "distro": "CentOS",
     "description": "Official LXC container image for CentOS 10-Stream",
     "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/centos/10-Stream/arm64/default/20260905_07%3A08/rootfs.tar.xz",
-    "sha256": "d724fdfe231c64a3e884629ce56a344a2f6d1cf0c9b059b0906a71ad92ae5be4",
-    "size_bytes": 78707412,
-    "build_date": "20260905"
-  },
-  {
-    "name": "CentOS 9-Stream",
-    "author": "linuxcontainers",
-    "distro": "CentOS",
-    "description": "Official LXC container image for CentOS 9-Stream",
-    "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/centos/9-Stream/arm64/default/20260905_07%3A08/rootfs.tar.xz",
-    "sha256": "2596ae452d38de975dc648e098365a7e511619081f9683785742f4a095018d8c",
-    "size_bytes": 101211860,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/centos/10-Stream/arm64/default/20260906_07%3A08/rootfs.tar.xz",
+    "sha256": "0a40d0fcd28deee8b28c0212bef13a2edcd2bc0673c3b278a1f4274d549b609e",
+    "size_bytes": 78722612,
+    "build_date": "20260906"
   },
   {
     "name": "CentOS 9-Stream",
@@ -533,10 +522,21 @@
     "distro": "CentOS",
     "description": "Official LXC container image for CentOS 9-Stream",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/centos/9-Stream/amd64/default/20260905_07%3A08/rootfs.tar.xz",
-    "sha256": "596ea2ba981dda30b88bc630615020b76db37fb1f4b387f45708b9e9dcc1c995",
-    "size_bytes": 109248104,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/centos/9-Stream/amd64/default/20260906_07%3A08/rootfs.tar.xz",
+    "sha256": "641614341527cacc535cce397d269c8f7b5ade5dde4c136d4d9e367d91cea3e7",
+    "size_bytes": 109243108,
+    "build_date": "20260906"
+  },
+  {
+    "name": "CentOS 9-Stream",
+    "author": "linuxcontainers",
+    "distro": "CentOS",
+    "description": "Official LXC container image for CentOS 9-Stream",
+    "architecture": "aarch64",
+    "download_url": "https://images.linuxcontainers.org/images/centos/9-Stream/arm64/default/20260906_07%3A08/rootfs.tar.xz",
+    "sha256": "10805c8d0a249939a3d2760dbcc9562124dbab6defebeee68219779b7de34240",
+    "size_bytes": 101224040,
+    "build_date": "20260906"
   },
   {
     "name": "Debian GNU/Linux bookworm",
@@ -609,17 +609,6 @@
     "author": "linuxcontainers",
     "distro": "Debian GNU/Linux",
     "description": "Official LXC container image for Debian GNU/Linux forky",
-    "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/debian/forky/arm64/default/20260904_05%3A24/rootfs.tar.xz",
-    "sha256": "9bbee0db361e54f9bfbbc2d67c39e38251b4f8107a9bd40a9725d3294fd8d3fe",
-    "size_bytes": 88559128,
-    "build_date": "20260904"
-  },
-  {
-    "name": "Debian GNU/Linux forky",
-    "author": "linuxcontainers",
-    "distro": "Debian GNU/Linux",
-    "description": "Official LXC container image for Debian GNU/Linux forky",
     "architecture": "x86_64",
     "download_url": "https://images.linuxcontainers.org/images/debian/forky/amd64/default/20260904_05%3A24/rootfs.tar.xz",
     "sha256": "6e7e5999ed88342b88f6eddb757b98f0a1bd738461fb5bf1de7fd7183d6ea889",
@@ -631,10 +620,32 @@
     "author": "linuxcontainers",
     "distro": "Debian GNU/Linux",
     "description": "Official LXC container image for Debian GNU/Linux forky",
+    "architecture": "aarch64",
+    "download_url": "https://images.linuxcontainers.org/images/debian/forky/arm64/default/20260904_05%3A24/rootfs.tar.xz",
+    "sha256": "9bbee0db361e54f9bfbbc2d67c39e38251b4f8107a9bd40a9725d3294fd8d3fe",
+    "size_bytes": 88559128,
+    "build_date": "20260904"
+  },
+  {
+    "name": "Debian GNU/Linux forky",
+    "author": "linuxcontainers",
+    "distro": "Debian GNU/Linux",
+    "description": "Official LXC container image for Debian GNU/Linux forky",
     "architecture": "armhf",
     "download_url": "https://images.linuxcontainers.org/images/debian/forky/armhf/default/20260904_05%3A53/rootfs.tar.xz",
     "sha256": "58647cc02d42da1c73699f32f441ccb98a5aa6e1dade2b0e81372acfb5e40425",
     "size_bytes": 82400312,
+    "build_date": "20260904"
+  },
+  {
+    "name": "Debian GNU/Linux trixie",
+    "author": "linuxcontainers",
+    "distro": "Debian GNU/Linux",
+    "description": "Official LXC container image for Debian GNU/Linux trixie",
+    "architecture": "x86_64",
+    "download_url": "https://images.linuxcontainers.org/images/debian/trixie/amd64/default/20260904_05%3A24/rootfs.tar.xz",
+    "sha256": "a681f647ae31822e0be12610b3ba42665ee67cb0cfe28866a5bb5915b745e192",
+    "size_bytes": 93147144,
     "build_date": "20260904"
   },
   {
@@ -660,15 +671,15 @@
     "build_date": "20260904"
   },
   {
-    "name": "Debian GNU/Linux trixie",
+    "name": "Devuan chimaera",
     "author": "linuxcontainers",
-    "distro": "Debian GNU/Linux",
-    "description": "Official LXC container image for Debian GNU/Linux trixie",
-    "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/debian/trixie/amd64/default/20260904_05%3A24/rootfs.tar.xz",
-    "sha256": "a681f647ae31822e0be12610b3ba42665ee67cb0cfe28866a5bb5915b745e192",
-    "size_bytes": 93147144,
-    "build_date": "20260904"
+    "distro": "Devuan",
+    "description": "Official LXC container image for Devuan chimaera",
+    "architecture": "aarch64",
+    "download_url": "https://images.linuxcontainers.org/images/devuan/chimaera/arm64/default/20260903_11%3A50/rootfs.tar.xz",
+    "sha256": "398ac3ecd4ae57f991505d22d98164c07425515c74b5a763a6cdd25e2005362a",
+    "size_bytes": 82660580,
+    "build_date": "20260903"
   },
   {
     "name": "Devuan chimaera",
@@ -682,14 +693,14 @@
     "build_date": "20260903"
   },
   {
-    "name": "Devuan chimaera",
+    "name": "Devuan daedalus",
     "author": "linuxcontainers",
     "distro": "Devuan",
-    "description": "Official LXC container image for Devuan chimaera",
-    "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/devuan/chimaera/arm64/default/20260903_11%3A50/rootfs.tar.xz",
-    "sha256": "398ac3ecd4ae57f991505d22d98164c07425515c74b5a763a6cdd25e2005362a",
-    "size_bytes": 82660580,
+    "description": "Official LXC container image for Devuan daedalus",
+    "architecture": "x86_64",
+    "download_url": "https://images.linuxcontainers.org/images/devuan/daedalus/amd64/default/20260903_11%3A50/rootfs.tar.xz",
+    "sha256": "d4da58f5aea88e2c5e3cdc1481c6969b96c37e6dff70f801e4043eb211103f0c",
+    "size_bytes": 88028060,
     "build_date": "20260903"
   },
   {
@@ -701,17 +712,6 @@
     "download_url": "https://images.linuxcontainers.org/images/devuan/daedalus/arm64/default/20260903_11%3A50/rootfs.tar.xz",
     "sha256": "9c12b3581c670661f84310aa57e3564d8236f23c98a812314aa3c42cb59ee7e7",
     "size_bytes": 85726932,
-    "build_date": "20260903"
-  },
-  {
-    "name": "Devuan daedalus",
-    "author": "linuxcontainers",
-    "distro": "Devuan",
-    "description": "Official LXC container image for Devuan daedalus",
-    "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/devuan/daedalus/amd64/default/20260903_11%3A50/rootfs.tar.xz",
-    "sha256": "d4da58f5aea88e2c5e3cdc1481c6969b96c37e6dff70f801e4043eb211103f0c",
-    "size_bytes": 88028060,
     "build_date": "20260903"
   },
   {
@@ -742,10 +742,10 @@
     "distro": "Fedora",
     "description": "Official LXC container image for Fedora 43",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/fedora/43/amd64/default/20260904_20%3A33/rootfs.tar.xz",
-    "sha256": "83ca36b216faded1c57179cb069e96a952ac15f41954d82fd27c725a9933b346",
-    "size_bytes": 97128536,
-    "build_date": "20260904"
+    "download_url": "https://images.linuxcontainers.org/images/fedora/43/amd64/default/20260905_20%3A33/rootfs.tar.xz",
+    "sha256": "b9900aa031f84d93b50938ef6840b8c06582d9e5d6c9f1255c40b0f21e56cff4",
+    "size_bytes": 97093492,
+    "build_date": "20260905"
   },
   {
     "name": "Fedora 43",
@@ -753,21 +753,10 @@
     "distro": "Fedora",
     "description": "Official LXC container image for Fedora 43",
     "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/fedora/43/arm64/default/20260904_20%3A33/rootfs.tar.xz",
-    "sha256": "d34504e277da5184951c5673205c60ed2571d63e258b93fa4aa5949d2bff9f22",
-    "size_bytes": 92218072,
-    "build_date": "20260904"
-  },
-  {
-    "name": "Fedora 44",
-    "author": "linuxcontainers",
-    "distro": "Fedora",
-    "description": "Official LXC container image for Fedora 44",
-    "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/fedora/44/amd64/default/20260904_20%3A33/rootfs.tar.xz",
-    "sha256": "5060eefaea407d47db5b94a553ee36c80727068f98f6e3cc1fdbf71c2b8637db",
-    "size_bytes": 98931736,
-    "build_date": "20260904"
+    "download_url": "https://images.linuxcontainers.org/images/fedora/43/arm64/default/20260905_20%3A33/rootfs.tar.xz",
+    "sha256": "de09cdbd5797a1b3520b77f08336a3916171a77355d28155976ad88e9d0437de",
+    "size_bytes": 92245304,
+    "build_date": "20260905"
   },
   {
     "name": "Fedora 44",
@@ -775,20 +764,20 @@
     "distro": "Fedora",
     "description": "Official LXC container image for Fedora 44",
     "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/fedora/44/arm64/default/20260904_20%3A33/rootfs.tar.xz",
-    "sha256": "742e09bc9ee63feacb92328dfd6604e07ed2d809f10d0157a5a06091f22a0a01",
-    "size_bytes": 92945060,
-    "build_date": "20260904"
+    "download_url": "https://images.linuxcontainers.org/images/fedora/44/arm64/default/20260905_20%3A33/rootfs.tar.xz",
+    "sha256": "de0f9b0747af61b395684e313eb3a594c6baa45df22241edda7ccad49f0a9ff4",
+    "size_bytes": 92960772,
+    "build_date": "20260905"
   },
   {
-    "name": "Gentoo current (openrc)",
+    "name": "Fedora 44",
     "author": "linuxcontainers",
-    "distro": "Gentoo",
-    "description": "Official LXC container image for Gentoo current (openrc)",
+    "distro": "Fedora",
+    "description": "Official LXC container image for Fedora 44",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/gentoo/current/amd64/openrc/20260905_16%3A07/rootfs.tar.xz",
-    "sha256": "d7020e8a4e072345a74a06b6df7b5a5cd7c79492a5d31b404f7f4cc2efee6ac8",
-    "size_bytes": 281382532,
+    "download_url": "https://images.linuxcontainers.org/images/fedora/44/amd64/default/20260905_20%3A33/rootfs.tar.xz",
+    "sha256": "0811a56a2328197b56461d848b09dd286450f02407784c684e4203d237c0f7bc",
+    "size_bytes": 98947300,
     "build_date": "20260905"
   },
   {
@@ -800,6 +789,17 @@
     "download_url": "https://images.linuxcontainers.org/images/gentoo/current/arm64/openrc/20260905_16%3A07/rootfs.tar.xz",
     "sha256": "015ab0f8038d73fc9d1e63e0c75cd41d57564181050033c5e7f9179552c43a6c",
     "size_bytes": 251702936,
+    "build_date": "20260905"
+  },
+  {
+    "name": "Gentoo current (openrc)",
+    "author": "linuxcontainers",
+    "distro": "Gentoo",
+    "description": "Official LXC container image for Gentoo current (openrc)",
+    "architecture": "x86_64",
+    "download_url": "https://images.linuxcontainers.org/images/gentoo/current/amd64/openrc/20260905_16%3A07/rootfs.tar.xz",
+    "sha256": "d7020e8a4e072345a74a06b6df7b5a5cd7c79492a5d31b404f7f4cc2efee6ac8",
+    "size_bytes": 281382532,
     "build_date": "20260905"
   },
   {
@@ -829,10 +829,10 @@
     "author": "linuxcontainers",
     "distro": "Kali Linux",
     "description": "Official LXC container image for Kali Linux current",
-    "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/kali/current/amd64/default/20260905_17%3A14/rootfs.tar.xz",
-    "sha256": "8afb8c1850e3e1aa387aa760bc4960fac11fd960ec9da737d5d0d35cd95f79fc",
-    "size_bytes": 81582536,
+    "architecture": "aarch64",
+    "download_url": "https://images.linuxcontainers.org/images/kali/current/arm64/default/20260905_17%3A14/rootfs.tar.xz",
+    "sha256": "e54606a84ee30440276bd046712f9636851067c7fc0ae9679f8edefb8f6aa2ad",
+    "size_bytes": 78440716,
     "build_date": "20260905"
   },
   {
@@ -840,10 +840,10 @@
     "author": "linuxcontainers",
     "distro": "Kali Linux",
     "description": "Official LXC container image for Kali Linux current",
-    "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/kali/current/arm64/default/20260905_17%3A14/rootfs.tar.xz",
-    "sha256": "e54606a84ee30440276bd046712f9636851067c7fc0ae9679f8edefb8f6aa2ad",
-    "size_bytes": 78440716,
+    "architecture": "x86_64",
+    "download_url": "https://images.linuxcontainers.org/images/kali/current/amd64/default/20260905_17%3A14/rootfs.tar.xz",
+    "sha256": "8afb8c1850e3e1aa387aa760bc4960fac11fd960ec9da737d5d0d35cd95f79fc",
+    "size_bytes": 81582536,
     "build_date": "20260905"
   },
   {
@@ -852,10 +852,10 @@
     "distro": "Linux Mint",
     "description": "Official LXC container image for Linux Mint vanessa",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/mint/vanessa/amd64/default/20260905_08%3A51/rootfs.tar.xz",
-    "sha256": "2e6c1785d02aba474f5b39e4aca9543fed82e7c29d7a1234343a44031e27a863",
-    "size_bytes": 248126148,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/mint/vanessa/amd64/default/20260906_08%3A51/rootfs.tar.xz",
+    "sha256": "03dfd85cd6fb77bd03a3a19288139c2d40630f2ff1fd30e050a2a6e2203164fc",
+    "size_bytes": 248100280,
+    "build_date": "20260906"
   },
   {
     "name": "Linux Mint vera",
@@ -863,10 +863,10 @@
     "distro": "Linux Mint",
     "description": "Official LXC container image for Linux Mint vera",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/mint/vera/amd64/default/20260905_08%3A51/rootfs.tar.xz",
-    "sha256": "fe2b955965d47d746160a570d48caccaf87267bed478a5842fbc4ede658ff79e",
-    "size_bytes": 248462868,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/mint/vera/amd64/default/20260906_08%3A51/rootfs.tar.xz",
+    "sha256": "b7f671f6caa987c761f59b35f0c6805ef7038aa8d8caf811de5bb0d1b5cacd07",
+    "size_bytes": 248429788,
+    "build_date": "20260906"
   },
   {
     "name": "Linux Mint victoria",
@@ -874,10 +874,10 @@
     "distro": "Linux Mint",
     "description": "Official LXC container image for Linux Mint victoria",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/mint/victoria/amd64/default/20260905_08%3A51/rootfs.tar.xz",
-    "sha256": "f103fe869ce615e65f9eb15f38c43fe523e11e5334bbb7d39184e8654659da52",
-    "size_bytes": 248548268,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/mint/victoria/amd64/default/20260906_08%3A51/rootfs.tar.xz",
+    "sha256": "39a6612d6b60154153d3a9b9cf54d4a6bf56bb32634f7e229bd9e037b2b9aecf",
+    "size_bytes": 248564092,
+    "build_date": "20260906"
   },
   {
     "name": "Linux Mint virginia",
@@ -885,10 +885,10 @@
     "distro": "Linux Mint",
     "description": "Official LXC container image for Linux Mint virginia",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/mint/virginia/amd64/default/20260905_08%3A51/rootfs.tar.xz",
-    "sha256": "1f1addfcae2c13ef0c07efcec785fe4ae3cdf1e84bce263accf9577e8a39a8ea",
-    "size_bytes": 248550816,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/mint/virginia/amd64/default/20260906_08%3A51/rootfs.tar.xz",
+    "sha256": "d841f6594e185755e7683f14916c94b242cf9614cf2d49d7cfec95d630213e8b",
+    "size_bytes": 248621972,
+    "build_date": "20260906"
   },
   {
     "name": "Linux Mint wilma",
@@ -896,10 +896,10 @@
     "distro": "Linux Mint",
     "description": "Official LXC container image for Linux Mint wilma",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/mint/wilma/amd64/default/20260905_08%3A51/rootfs.tar.xz",
-    "sha256": "277bb0a8687090b0b887e0d5198c3e1afc483a32075fb098a5e94b4ee2a138e8",
-    "size_bytes": 136169712,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/mint/wilma/amd64/default/20260906_08%3A51/rootfs.tar.xz",
+    "sha256": "38a0a7c639b72250b28420737cee713552ad9f10451e3bac606e68db10219f2d",
+    "size_bytes": 136180064,
+    "build_date": "20260906"
   },
   {
     "name": "Linux Mint xia",
@@ -907,10 +907,10 @@
     "distro": "Linux Mint",
     "description": "Official LXC container image for Linux Mint xia",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/mint/xia/amd64/default/20260905_08%3A51/rootfs.tar.xz",
-    "sha256": "89a007cd2b5b7bd8fa3d59489e69bffb8c506eadb3d9c1dea792c138a2f0fb1c",
-    "size_bytes": 136177764,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/mint/xia/amd64/default/20260906_08%3A51/rootfs.tar.xz",
+    "sha256": "82a6a9eee02d4c63926bf2aab44f2c6cfce1e18c23c51e7ab4ff6f2c3b8d0b92",
+    "size_bytes": 136167696,
+    "build_date": "20260906"
   },
   {
     "name": "Linux Mint zara",
@@ -918,10 +918,10 @@
     "distro": "Linux Mint",
     "description": "Official LXC container image for Linux Mint zara",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/mint/zara/amd64/default/20260905_08%3A51/rootfs.tar.xz",
-    "sha256": "e8c6972c128e5087339e66699f09858c926a115968fb82684fdf1da0431f45a8",
-    "size_bytes": 136176108,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/mint/zara/amd64/default/20260906_08%3A51/rootfs.tar.xz",
+    "sha256": "f82acb2824995c851738c162f621c4b70ef19ecdf0a3e2e72d2dd2591b6a60eb",
+    "size_bytes": 136164144,
+    "build_date": "20260906"
   },
   {
     "name": "Linux Mint zena",
@@ -929,9 +929,20 @@
     "distro": "Linux Mint",
     "description": "Official LXC container image for Linux Mint zena",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/mint/zena/amd64/default/20260905_08%3A51/rootfs.tar.xz",
-    "sha256": "a2f4f11ea6187c8d4bf2e6d4a546e1b96b69552d5595c0b8ba67c669e36be44a",
-    "size_bytes": 136163744,
+    "download_url": "https://images.linuxcontainers.org/images/mint/zena/amd64/default/20260906_08%3A51/rootfs.tar.xz",
+    "sha256": "908a3d37815b3f9ef92d96c659f2c8665ae67a50b109ecec8cf64a8a47867734",
+    "size_bytes": 136162728,
+    "build_date": "20260906"
+  },
+  {
+    "name": "OpenWrt 24.10",
+    "author": "linuxcontainers",
+    "distro": "OpenWrt",
+    "description": "Official LXC container image for OpenWrt 24.10",
+    "architecture": "x86_64",
+    "download_url": "https://images.linuxcontainers.org/images/openwrt/24.10/amd64/default/20260905_11%3A57/rootfs.tar.xz",
+    "sha256": "afd982fa834b58f166f9185c8d4b425ef0c935ad4294febb88235a01110378a8",
+    "size_bytes": 5624432,
     "build_date": "20260905"
   },
   {
@@ -946,14 +957,14 @@
     "build_date": "20260905"
   },
   {
-    "name": "OpenWrt 24.10",
+    "name": "OpenWrt 25.12",
     "author": "linuxcontainers",
     "distro": "OpenWrt",
-    "description": "Official LXC container image for OpenWrt 24.10",
+    "description": "Official LXC container image for OpenWrt 25.12",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/openwrt/24.10/amd64/default/20260905_11%3A57/rootfs.tar.xz",
-    "sha256": "afd982fa834b58f166f9185c8d4b425ef0c935ad4294febb88235a01110378a8",
-    "size_bytes": 5624432,
+    "download_url": "https://images.linuxcontainers.org/images/openwrt/25.12/amd64/default/20260905_11%3A57/rootfs.tar.xz",
+    "sha256": "3cbf14c66787354c1dba4fbe7af38eb2b3a9d64b1b0b1971341387d110fb90dd",
+    "size_bytes": 5714792,
     "build_date": "20260905"
   },
   {
@@ -968,14 +979,14 @@
     "build_date": "20260905"
   },
   {
-    "name": "OpenWrt 25.12",
+    "name": "OpenWrt snapshot",
     "author": "linuxcontainers",
     "distro": "OpenWrt",
-    "description": "Official LXC container image for OpenWrt 25.12",
-    "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/openwrt/25.12/amd64/default/20260905_11%3A57/rootfs.tar.xz",
-    "sha256": "3cbf14c66787354c1dba4fbe7af38eb2b3a9d64b1b0b1971341387d110fb90dd",
-    "size_bytes": 5714792,
+    "description": "Official LXC container image for OpenWrt snapshot",
+    "architecture": "aarch64",
+    "download_url": "https://images.linuxcontainers.org/images/openwrt/snapshot/arm64/default/20260905_11%3A57/rootfs.tar.xz",
+    "sha256": "951049768e6a028469adda566c612329554c123e5e689f3601a75de282b16a6e",
+    "size_bytes": 3970840,
     "build_date": "20260905"
   },
   {
@@ -990,26 +1001,15 @@
     "build_date": "20260905"
   },
   {
-    "name": "OpenWrt snapshot",
-    "author": "linuxcontainers",
-    "distro": "OpenWrt",
-    "description": "Official LXC container image for OpenWrt snapshot",
-    "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/openwrt/snapshot/arm64/default/20260905_11%3A57/rootfs.tar.xz",
-    "sha256": "951049768e6a028469adda566c612329554c123e5e689f3601a75de282b16a6e",
-    "size_bytes": 3970840,
-    "build_date": "20260905"
-  },
-  {
     "name": "Oracle Linux 10",
     "author": "linuxcontainers",
     "distro": "Oracle Linux",
     "description": "Official LXC container image for Oracle Linux 10",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/oracle/10/amd64/default/20260905_07%3A46/rootfs.tar.xz",
-    "sha256": "f0b2f95e9bcb9f6114b922efcef5f666df48f5e7268c4ab0fe16f857befdf470",
-    "size_bytes": 91917396,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/oracle/10/amd64/default/20260906_07%3A46/rootfs.tar.xz",
+    "sha256": "54d312c78111b23879583c6822f83de15f2eaf4c4fcb8f93ccf09453db7c5d2c",
+    "size_bytes": 91954540,
+    "build_date": "20260906"
   },
   {
     "name": "Oracle Linux 10",
@@ -1017,10 +1017,10 @@
     "distro": "Oracle Linux",
     "description": "Official LXC container image for Oracle Linux 10",
     "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/oracle/10/arm64/default/20260905_08%3A01/rootfs.tar.xz",
-    "sha256": "0a7f8c750e2c44cedd86959298fa45f62e4d1f2f6a7b02eda8476cd791a7a35f",
-    "size_bytes": 87511776,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/oracle/10/arm64/default/20260906_08%3A04/rootfs.tar.xz",
+    "sha256": "9968b9935f68377c59e35a94c7475d379bd1dc8568dfc60d1484122cc2576fa3",
+    "size_bytes": 87486040,
+    "build_date": "20260906"
   },
   {
     "name": "Oracle Linux 8",
@@ -1028,10 +1028,10 @@
     "distro": "Oracle Linux",
     "description": "Official LXC container image for Oracle Linux 8",
     "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/oracle/8/arm64/default/20260905_07%3A46/rootfs.tar.xz",
-    "sha256": "f58105c68ba3e2a4d4068856471caff78c5f1df12e5b4d5d81b8e2a7235ff814",
-    "size_bytes": 106364364,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/oracle/8/arm64/default/20260906_08%3A02/rootfs.tar.xz",
+    "sha256": "8e3354d8136811bfb9a5cb002ba4359338f4e3032accbf4be27296bc0871dffa",
+    "size_bytes": 106351188,
+    "build_date": "20260906"
   },
   {
     "name": "Oracle Linux 8",
@@ -1039,10 +1039,10 @@
     "distro": "Oracle Linux",
     "description": "Official LXC container image for Oracle Linux 8",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/oracle/8/amd64/default/20260905_07%3A46/rootfs.tar.xz",
-    "sha256": "71c0cafc418b17b290adbc6b1ad332d41eee8c2e946d2d01c89aeda70a8045b1",
-    "size_bytes": 111372160,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/oracle/8/amd64/default/20260906_07%3A46/rootfs.tar.xz",
+    "sha256": "bcfb37103cf7f76d11b4ea6ded24f1fb54480cf3fa3b6b9b4c1c816677a6207d",
+    "size_bytes": 111429120,
+    "build_date": "20260906"
   },
   {
     "name": "Oracle Linux 9",
@@ -1050,10 +1050,10 @@
     "distro": "Oracle Linux",
     "description": "Official LXC container image for Oracle Linux 9",
     "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/oracle/9/arm64/default/20260905_08%3A01/rootfs.tar.xz",
-    "sha256": "4fd2a09f5321dfba87e536f8a50bc3c1e3a78d26855c5b5a3871e253596dbf33",
-    "size_bytes": 90428692,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/oracle/9/arm64/default/20260906_07%3A46/rootfs.tar.xz",
+    "sha256": "e9fb1e351f52e10d917f2fc81a09f445ffe17ff1f985cfbd617f159aadd12242",
+    "size_bytes": 90433752,
+    "build_date": "20260906"
   },
   {
     "name": "Oracle Linux 9",
@@ -1061,21 +1061,10 @@
     "distro": "Oracle Linux",
     "description": "Official LXC container image for Oracle Linux 9",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/oracle/9/amd64/default/20260905_07%3A46/rootfs.tar.xz",
-    "sha256": "ecb63c1f8bb9f1326304095a7a9679f524f7b9d02202c9358c394fb0ad64434e",
-    "size_bytes": 94778628,
-    "build_date": "20260905"
-  },
-  {
-    "name": "Rocky Linux 10",
-    "author": "linuxcontainers",
-    "distro": "Rocky Linux",
-    "description": "Official LXC container image for Rocky Linux 10",
-    "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/rockylinux/10/amd64/default/20260905_02%3A06/rootfs.tar.xz",
-    "sha256": "f1e8317c67b80dd707e4ecb870fb0492b0747b1ac018a4122acf5498f864aaf4",
-    "size_bytes": 84448088,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/oracle/9/amd64/default/20260906_07%3A46/rootfs.tar.xz",
+    "sha256": "b95344507503c1026402ab3352f783e84756eb7cda605ee45a80c6cc1ea98137",
+    "size_bytes": 94808256,
+    "build_date": "20260906"
   },
   {
     "name": "Rocky Linux 10",
@@ -1083,21 +1072,21 @@
     "distro": "Rocky Linux",
     "description": "Official LXC container image for Rocky Linux 10",
     "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/rockylinux/10/arm64/default/20260905_02%3A06/rootfs.tar.xz",
-    "sha256": "c27cea20aaa9ba470770febbc747c05d091b864bf4eb4091151588fc16016447",
-    "size_bytes": 79862884,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/rockylinux/10/arm64/default/20260906_05%3A05/rootfs.tar.xz",
+    "sha256": "2eacd86632933a661023d5c0ec70ab792dd0b12b43e35c1209c9db1a8ec0612a",
+    "size_bytes": 79843396,
+    "build_date": "20260906"
   },
   {
-    "name": "Rocky Linux 8",
+    "name": "Rocky Linux 10",
     "author": "linuxcontainers",
     "distro": "Rocky Linux",
-    "description": "Official LXC container image for Rocky Linux 8",
-    "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/rockylinux/8/arm64/default/20260905_02%3A06/rootfs.tar.xz",
-    "sha256": "e5825063de602cbd065c06ab3fb294e2c061231e88b7c905d561e4e8214b7dbf",
-    "size_bytes": 111650712,
-    "build_date": "20260905"
+    "description": "Official LXC container image for Rocky Linux 10",
+    "architecture": "x86_64",
+    "download_url": "https://images.linuxcontainers.org/images/rockylinux/10/amd64/default/20260906_05%3A05/rootfs.tar.xz",
+    "sha256": "bdf4496b05c130622b546271d021bc53fc66d123f2356a3e74f3c2b3f33197ab",
+    "size_bytes": 84445216,
+    "build_date": "20260906"
   },
   {
     "name": "Rocky Linux 8",
@@ -1105,21 +1094,21 @@
     "distro": "Rocky Linux",
     "description": "Official LXC container image for Rocky Linux 8",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/rockylinux/8/amd64/default/20260905_02%3A06/rootfs.tar.xz",
-    "sha256": "f7616e54412fe0f90f60a5c4d8e5678171c5e7b20a199ec4ca61ac901b71440c",
-    "size_bytes": 115292516,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/rockylinux/8/amd64/default/20260906_05%3A04/rootfs.tar.xz",
+    "sha256": "92d49f67b4a6e808c5e95a3ce3341a91d11deab1190cbb9f0401bbc1319650be",
+    "size_bytes": 115984160,
+    "build_date": "20260906"
   },
   {
-    "name": "Rocky Linux 9",
+    "name": "Rocky Linux 8",
     "author": "linuxcontainers",
     "distro": "Rocky Linux",
-    "description": "Official LXC container image for Rocky Linux 9",
+    "description": "Official LXC container image for Rocky Linux 8",
     "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/rockylinux/9/arm64/default/20260905_02%3A06/rootfs.tar.xz",
-    "sha256": "b8adf6c83b75682555dd13c1fc2b7a53d9d35d5622d23999fd725fe5ae30fdc9",
-    "size_bytes": 103593740,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/rockylinux/8/arm64/default/20260906_05%3A14/rootfs.tar.xz",
+    "sha256": "73a43729e2c5de70e856970fef81fc44fe13c625bfe9c9defa8d1fcced9d5bb6",
+    "size_bytes": 111670324,
+    "build_date": "20260906"
   },
   {
     "name": "Rocky Linux 9",
@@ -1127,10 +1116,21 @@
     "distro": "Rocky Linux",
     "description": "Official LXC container image for Rocky Linux 9",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/rockylinux/9/amd64/default/20260905_02%3A06/rootfs.tar.xz",
-    "sha256": "1aedba67d0d02c671dbdd68a24faddf524e1882829d40dc454310470e71348ea",
-    "size_bytes": 107414388,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/rockylinux/9/amd64/default/20260906_05%3A04/rootfs.tar.xz",
+    "sha256": "c805f2d85d507e9abe15bd0531e7dc3dc377f0d262e993fb0bb8a5337f91e34a",
+    "size_bytes": 107414872,
+    "build_date": "20260906"
+  },
+  {
+    "name": "Rocky Linux 9",
+    "author": "linuxcontainers",
+    "distro": "Rocky Linux",
+    "description": "Official LXC container image for Rocky Linux 9",
+    "architecture": "aarch64",
+    "download_url": "https://images.linuxcontainers.org/images/rockylinux/9/arm64/default/20260906_05%3A05/rootfs.tar.xz",
+    "sha256": "fecc718162f45457082b5138b3d48436093c6e7003be8690000e0e852e3dc066",
+    "size_bytes": 103605680,
+    "build_date": "20260906"
   },
   {
     "name": "Slackware 15.0",
@@ -1138,10 +1138,10 @@
     "distro": "Slackware",
     "description": "Official LXC container image for Slackware 15.0",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/slackware/15.0/amd64/default/20260904_23%3A08/rootfs.tar.xz",
-    "sha256": "9453cf6e63677b3c54bd2882a7c677240546c898c0c425e3ff80384ef2f1bf0f",
-    "size_bytes": 94375060,
-    "build_date": "20260904"
+    "download_url": "https://images.linuxcontainers.org/images/slackware/15.0/amd64/default/20260905_23%3A08/rootfs.tar.xz",
+    "sha256": "fe951e3b5147be96427fce8b6149db7f7807a6dc9adb2580a6bd6e6a056905af",
+    "size_bytes": 94384968,
+    "build_date": "20260905"
   },
   {
     "name": "Slackware current",
@@ -1149,31 +1149,9 @@
     "distro": "Slackware",
     "description": "Official LXC container image for Slackware current",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/slackware/current/amd64/default/20260904_23%3A08/rootfs.tar.xz",
-    "sha256": "d3baf90e34b64cde428a92f9262c7716c4a2d4ac10e04d90cf0626669dde62ea",
-    "size_bytes": 142898708,
-    "build_date": "20260904"
-  },
-  {
-    "name": "Ubuntu jammy",
-    "author": "linuxcontainers",
-    "distro": "Ubuntu",
-    "description": "Official LXC container image for Ubuntu jammy",
-    "architecture": "armhf",
-    "download_url": "https://images.linuxcontainers.org/images/ubuntu/jammy/armhf/default/20260905_07%3A42/rootfs.tar.xz",
-    "sha256": "1681125af02c2771f2bcae6b6d5fdb084027a7d04690556f23639bf4e310f62f",
-    "size_bytes": 112082180,
-    "build_date": "20260905"
-  },
-  {
-    "name": "Ubuntu jammy",
-    "author": "linuxcontainers",
-    "distro": "Ubuntu",
-    "description": "Official LXC container image for Ubuntu jammy",
-    "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/ubuntu/jammy/amd64/default/20260905_07%3A42/rootfs.tar.xz",
-    "sha256": "6bb867d00e6863e2844bb3e3a0f2a6070d6a2458b3d037fd44238d60c8e1baea",
-    "size_bytes": 135218188,
+    "download_url": "https://images.linuxcontainers.org/images/slackware/current/amd64/default/20260905_23%3A08/rootfs.tar.xz",
+    "sha256": "5a320bf1f62bcb585f0eafca1aa16bbfcfc3914c8de5abbbc61fecd338fe970e",
+    "size_bytes": 124637024,
     "build_date": "20260905"
   },
   {
@@ -1182,21 +1160,32 @@
     "distro": "Ubuntu",
     "description": "Official LXC container image for Ubuntu jammy",
     "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/ubuntu/jammy/arm64/default/20260905_07%3A42/rootfs.tar.xz",
-    "sha256": "97e09d866ab205eec2cd8ee20eafdd7081aa3ef768ea8a279bc66cafa1632b82",
-    "size_bytes": 130583984,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/ubuntu/jammy/arm64/default/20260906_07%3A42/rootfs.tar.xz",
+    "sha256": "40f601379ed2dcc33174c932af53e9c143b36701747c1c9e78de5c9cc0e06f44",
+    "size_bytes": 130568148,
+    "build_date": "20260906"
   },
   {
-    "name": "Ubuntu noble",
+    "name": "Ubuntu jammy",
     "author": "linuxcontainers",
     "distro": "Ubuntu",
-    "description": "Official LXC container image for Ubuntu noble",
+    "description": "Official LXC container image for Ubuntu jammy",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/ubuntu/noble/amd64/default/20260905_07%3A42/rootfs.tar.xz",
-    "sha256": "36d93d28caad9211fe1b67aa89166aa3cda3796847af4a7cc05253271fe6fd38",
-    "size_bytes": 128762376,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/ubuntu/jammy/amd64/default/20260906_07%3A42/rootfs.tar.xz",
+    "sha256": "4bd1dd23ed9887ef5a64ca256c59307261852388f6658b6329ee6c80f0249919",
+    "size_bytes": 135221344,
+    "build_date": "20260906"
+  },
+  {
+    "name": "Ubuntu jammy",
+    "author": "linuxcontainers",
+    "distro": "Ubuntu",
+    "description": "Official LXC container image for Ubuntu jammy",
+    "architecture": "armhf",
+    "download_url": "https://images.linuxcontainers.org/images/ubuntu/jammy/armhf/default/20260906_07%3A42/rootfs.tar.xz",
+    "sha256": "4d26c8bf73b99e8c7bf94023812dfd475ff282e3efd82fcd9e980c02ee9a8b70",
+    "size_bytes": 112059692,
+    "build_date": "20260906"
   },
   {
     "name": "Ubuntu noble",
@@ -1204,10 +1193,10 @@
     "distro": "Ubuntu",
     "description": "Official LXC container image for Ubuntu noble",
     "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/ubuntu/noble/arm64/default/20260905_07%3A42/rootfs.tar.xz",
-    "sha256": "1092651c35d4f3ad6b84591e4c22039d3c9a8b5390cffd3e956a840e1a90d908",
-    "size_bytes": 126350060,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/ubuntu/noble/arm64/default/20260906_07%3A42/rootfs.tar.xz",
+    "sha256": "7028962dc267bcbefdf7b0057e533a1f3b5b25be10a8f47b8aeb3c4df4c42c40",
+    "size_bytes": 126341308,
+    "build_date": "20260906"
   },
   {
     "name": "Ubuntu noble",
@@ -1215,21 +1204,21 @@
     "distro": "Ubuntu",
     "description": "Official LXC container image for Ubuntu noble",
     "architecture": "armhf",
-    "download_url": "https://images.linuxcontainers.org/images/ubuntu/noble/armhf/default/20260905_07%3A42/rootfs.tar.xz",
-    "sha256": "35df0662841ced89d3e12cc32bbf12ee8bcf63406844822ea7e5cec67687a283",
-    "size_bytes": 117216256,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/ubuntu/noble/armhf/default/20260906_07%3A42/rootfs.tar.xz",
+    "sha256": "802c85af324652321dae5686284c5c874316b1351fa0948089f601310450a52f",
+    "size_bytes": 117244152,
+    "build_date": "20260906"
   },
   {
-    "name": "Ubuntu resolute",
+    "name": "Ubuntu noble",
     "author": "linuxcontainers",
     "distro": "Ubuntu",
-    "description": "Official LXC container image for Ubuntu resolute",
+    "description": "Official LXC container image for Ubuntu noble",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/ubuntu/resolute/amd64/default/20260905_07%3A42/rootfs.tar.xz",
-    "sha256": "b2cfa6a002a5f252f94c9f3d03bc9fead1c660675f153f9ca5043f148e84eee2",
-    "size_bytes": 127069980,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/ubuntu/noble/amd64/default/20260906_07%3A42/rootfs.tar.xz",
+    "sha256": "f9e94dcf7dfbb47b297b0d4431772751f6f8c95a116c8cfeb506fbda97357a00",
+    "size_bytes": 128760136,
+    "build_date": "20260906"
   },
   {
     "name": "Ubuntu resolute",
@@ -1237,10 +1226,21 @@
     "distro": "Ubuntu",
     "description": "Official LXC container image for Ubuntu resolute",
     "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/ubuntu/resolute/arm64/default/20260905_07%3A42/rootfs.tar.xz",
-    "sha256": "ee7b3438c0f3efe4ac7661058ce8f8a91024e0b56052238558e92f2383a1a437",
-    "size_bytes": 123009656,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/ubuntu/resolute/arm64/default/20260906_07%3A42/rootfs.tar.xz",
+    "sha256": "5783ce70c3f56980391923752e60058467d23cb2cfd616e86ee4fd54e089835b",
+    "size_bytes": 123010040,
+    "build_date": "20260906"
+  },
+  {
+    "name": "Ubuntu resolute",
+    "author": "linuxcontainers",
+    "distro": "Ubuntu",
+    "description": "Official LXC container image for Ubuntu resolute",
+    "architecture": "x86_64",
+    "download_url": "https://images.linuxcontainers.org/images/ubuntu/resolute/amd64/default/20260906_07%3A42/rootfs.tar.xz",
+    "sha256": "4f984671fc224d9c5aac539bf135c22f09c53b27ce6257fbbea56f9750f41bd9",
+    "size_bytes": 127055900,
+    "build_date": "20260906"
   },
   {
     "name": "Ubuntu resolute",
@@ -1248,10 +1248,10 @@
     "distro": "Ubuntu",
     "description": "Official LXC container image for Ubuntu resolute",
     "architecture": "armhf",
-    "download_url": "https://images.linuxcontainers.org/images/ubuntu/resolute/armhf/default/20260905_08%3A04/rootfs.tar.xz",
-    "sha256": "22692927f7dc1f018d5f333bfa813c63ff2fe530a6c09e1747852811dfad7e51",
-    "size_bytes": 118071884,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/ubuntu/resolute/armhf/default/20260906_08%3A10/rootfs.tar.xz",
+    "sha256": "de63a769fae03fef25c2d205a22b8b353fd83eec7bb7160afb0af2f8fc58ba47",
+    "size_bytes": 118093672,
+    "build_date": "20260906"
   },
   {
     "name": "Void Linux current",
@@ -1302,17 +1302,6 @@
     "author": "linuxcontainers",
     "distro": "openEuler",
     "description": "Official LXC container image for openEuler 24.03",
-    "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/openeuler/24.03/amd64/default/20260905_15%3A48/rootfs.tar.xz",
-    "sha256": "e4c6c594a77527044d975ebc565e74a48ad150b536905510eeb131683bed1788",
-    "size_bytes": 128444180,
-    "build_date": "20260905"
-  },
-  {
-    "name": "openEuler 24.03",
-    "author": "linuxcontainers",
-    "distro": "openEuler",
-    "description": "Official LXC container image for openEuler 24.03",
     "architecture": "aarch64",
     "download_url": "https://images.linuxcontainers.org/images/openeuler/24.03/arm64/default/20260905_15%3A48/rootfs.tar.xz",
     "sha256": "5a5acca96db5600c0d55431c09dc397a038aa36d73e3eaaac40fbdb06eaf99cf",
@@ -1320,15 +1309,26 @@
     "build_date": "20260905"
   },
   {
+    "name": "openEuler 24.03",
+    "author": "linuxcontainers",
+    "distro": "openEuler",
+    "description": "Official LXC container image for openEuler 24.03",
+    "architecture": "x86_64",
+    "download_url": "https://images.linuxcontainers.org/images/openeuler/24.03/amd64/default/20260905_15%3A48/rootfs.tar.xz",
+    "sha256": "e4c6c594a77527044d975ebc565e74a48ad150b536905510eeb131683bed1788",
+    "size_bytes": 128444180,
+    "build_date": "20260905"
+  },
+  {
     "name": "openSUSE 16.0",
     "author": "linuxcontainers",
     "distro": "openSUSE",
     "description": "Official LXC container image for openSUSE 16.0",
     "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/opensuse/16.0/arm64/default/20260905_04%3A20/rootfs.tar.xz",
-    "sha256": "2cde87c75c6bcdcb3e45756f642e2c926097cbf9a4db08886f9aa4a688239845",
-    "size_bytes": 41596532,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/opensuse/16.0/arm64/default/20260906_05%3A15/rootfs.tar.xz",
+    "sha256": "68f4078fc2186cf6833ba36fc1b494a2f4f218f8dca2de4d32a5cda6537b7e13",
+    "size_bytes": 41590296,
+    "build_date": "20260906"
   },
   {
     "name": "openSUSE 16.0",
@@ -1336,10 +1336,10 @@
     "distro": "openSUSE",
     "description": "Official LXC container image for openSUSE 16.0",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/opensuse/16.0/amd64/default/20260905_04%3A20/rootfs.tar.xz",
-    "sha256": "526b2db78362b0481d4439231d7d72e678257c48f1764c580020d836d44fefd4",
-    "size_bytes": 43845920,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/opensuse/16.0/amd64/default/20260906_05%3A05/rootfs.tar.xz",
+    "sha256": "68139a46d1758539b108dd8a3908e0e0b886399dc033bd4edfac8e567cbe8ea5",
+    "size_bytes": 43837988,
+    "build_date": "20260906"
   },
   {
     "name": "openSUSE tumbleweed",
@@ -1347,10 +1347,10 @@
     "distro": "openSUSE",
     "description": "Official LXC container image for openSUSE tumbleweed",
     "architecture": "x86_64",
-    "download_url": "https://images.linuxcontainers.org/images/opensuse/tumbleweed/amd64/default/20260905_04%3A20/rootfs.tar.xz",
-    "sha256": "a4692af52ead904bc705ff1f2288e7d9d3f8e7e4e18213cda7429a9fefa74900",
-    "size_bytes": 46694336,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/opensuse/tumbleweed/amd64/default/20260906_05%3A05/rootfs.tar.xz",
+    "sha256": "b96b79be31b541fe27a19ca2e3d013796b222b218e28bf472fa18e17bda5eda4",
+    "size_bytes": 45987688,
+    "build_date": "20260906"
   },
   {
     "name": "openSUSE tumbleweed",
@@ -1358,9 +1358,9 @@
     "distro": "openSUSE",
     "description": "Official LXC container image for openSUSE tumbleweed",
     "architecture": "aarch64",
-    "download_url": "https://images.linuxcontainers.org/images/opensuse/tumbleweed/arm64/default/20260905_04%3A20/rootfs.tar.xz",
-    "sha256": "c2a5e19049ad5f48eeb6b57fe100cf10e28ca5ebce3642fdb8ffc052a483b6fe",
-    "size_bytes": 40319116,
-    "build_date": "20260905"
+    "download_url": "https://images.linuxcontainers.org/images/opensuse/tumbleweed/arm64/default/20260906_05%3A05/rootfs.tar.xz",
+    "sha256": "a072ecabac6f13835eb55900814052c4cdcacaab608379dd4eada75b96c9afbe",
+    "size_bytes": 40338952,
+    "build_date": "20260906"
   }
 ]
